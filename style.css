@@ -1,0 +1,94 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FAF9F6;
+  color: #2E2E2E;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6B8E23;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #3A5D23;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #C49E65;
+  color: #2E2E2E;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  color: #6B8E23;
+}
+
+.product {
+  margin: 20px 0;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"], button {
+  background-color: #6B8E23;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #3A5D23;
+}
+
+footer {
+  background-color: #C49E65;
+  text-align: center;
+  padding: 15px;
+  color: #2E2E2E;
+}
